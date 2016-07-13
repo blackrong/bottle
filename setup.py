@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import sys
+
 try:
     from setuptools import setup
 except ImportError:
@@ -13,7 +14,7 @@ import bottle
 
 setup(name='bottle',
       version=bottle.__version__,
-      description='Fast and simple WSGI-framework for small web-applications.',
+      description='Fast and simple WSGI-framework for large/small web-applications.',
       long_description=bottle.__doc__,
       author=bottle.__author__,
       author_email='marc@gsites.de',
